@@ -8,4 +8,8 @@ public class JniApp
 		int f = ja.factorial(500);
 		System.out.println("Factorial of 5 is: "+f);
 	}
+	static
+	{
+		System.loadLibrary("Factorial");
+	}
 }
