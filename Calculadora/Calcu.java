@@ -20,17 +20,17 @@ public class Calcu
 		//Inicialización de variables
 		Calcu _calc = new Calcu();
 		String _sNum1, _sNum2, _sOpe;
-        int _iNum1, _iNum2, _iNumR;
+        	int _iNum1, _iNum2, _iNumR;
 		
 		//Se define el operando 1
 		System.out.println("Operando 1: ");
 		_sNum1 = System.console().readLine();
-        _iNum1 = Integer.parseInt(_sNum1);
+        	_iNum1 = Integer.parseInt(_sNum1);
 		
 		//Se define el operando 2
 		System.out.println("Operando 2: ");
 		_sNum2 = System.console().readLine();
-        _iNum2 = Integer.parseInt(_sNum2);
+        	_iNum2 = Integer.parseInt(_sNum2);
 		
 		//Se define la operación
 		System.out.println("Operacion (+,-,*,/): ");
